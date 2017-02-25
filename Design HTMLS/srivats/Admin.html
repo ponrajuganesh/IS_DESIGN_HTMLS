@@ -5,110 +5,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width = device-width, initial-scale = 1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/handicart.css">
-	<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
     <title>HandiCart: Admin</title>
 </head>
 
 <body>
-    <div class="header-footer"> <h3>HandiCart: Disable/Delete User</h3></div>
-    <div id="wrapper" class="container-fluid col_12">
-        <form class="" id="" name="">
-        <table id="admin-tbl" class="table table-striped table-hover" style="border: 1px grey">
-            <thead>
-                <tr>
-                    <th>#</th>
-                    <th>Supplier / Logistic</th>
-                    <th>Disable</th>
-                    <th>Delete</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="admin-tcell">1</td>
-                    <td class="admin-tcell">Walmart</td>
-                    <td>
-                        <div class="form-group checkbox">
-                            <input type="checkbox"> </div>
-                    </td>
-                    <td>
-                        <div class="form-group checkbox">
-                            <input type="checkbox"> </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="admin-tcell">2</td>
-                    <td class="admin-tcell">Target</td>
-                    <td>
-                        <div class="form-group checkbox">
-                            <input type="checkbox"> </div>
-                    </td>
-                    <td>
-                        <div class="form-group checkbox">
-                            <input type="checkbox"> </div>
-                    </td>
-                </tr>
-                <tr class="">
-                    <td class="admin-tcell">3</td>
-                    <td class="admin-tcell">H.E.B</td>
-                    <td>
-                        <div class="form-group checkbox">
-                            <input type="checkbox"> </div>
-                    </td>
-                    <td>
-                        <div class="form-group checkbox">
-                            <input type="checkbox"> </div>
-                    </td>
-                </tr>
-                <tr class="">
-                    <td class="admin-tcell">4</td>
-                    <td class="admin-tcell">Farm Patch</td>
-                    <td>
-                        <div class="form-group checkbox">
-                            <input type="checkbox"> </div>
-                    </td>
-                    <td>
-                        <div class="form-group checkbox">
-                            <input type="checkbox"> </div>
-                    </td>
-                </tr>
-                <tr class="">
-                    <td class="admin-tcell">5</td>
-                    <td class="admin-tcell">Homer Logistics</td>
-                    <td>
-                        <div class="form-group checkbox">
-                            <input type="checkbox"> </div>
-                    </td>
-                    <td>
-                        <div class="form-group checkbox">
-                            <input type="checkbox"> </div>
-                    </td>
-                </tr>
-                <tr class="">
-                    <td class="admin-tcell">7</td>
-                    <td class="admin-tcell">Food2Go Logistics</td>
-                    <td>
-                        <div class="form-group checkbox">
-                            <input type="checkbox"> </div>
-                    </td>
-                    <td>
-                        <div class="form-group checkbox">
-                            <input type="checkbox"> </div>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+    <div class="col_12 text-center">
+        <h3>HandiCart: Disable/Delete User</h3></div>
+    <div class="container col_10 table-responsive text-center">
+        <form class="center-block admin-form">
+            <div class="form-group row">
+                <div class="col-4"><b>Supplier</b></div>
+                <div class="col-4"><b>Disable</b></div>
+                <div class="col-2"><b>Delete</b></div>
+            </div>
+            <div class="form-group row">
+                <div class="col-4">Walmart</div>
+                <div class="col-4">
+                    <div class="form-group checkbox">
+                        <label class="custom-control custom-checkbox mb-2 mr-sm-2 mb-sm-0">
+                            <input type="checkbox" class="custom-control-input"> <span class="custom-control-indicator"></span></label>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="form-group checkbox">
+                        <label class="custom-control custom-checkbox mb-2 mr-sm-2 mb-sm-0">
+                            <input type="checkbox" class="custom-control-input"> <span class="custom-control-indicator"></span> </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-4">Target</div>
+                <div class="col-4">
+                    <div class="form-group checkbox">
+                        <label class="custom-control custom-checkbox mb-2 mr-sm-2 mb-sm-0">
+                            <input type="checkbox" class="custom-control-input"> <span class="custom-control-indicator"></span></label>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="form-group checkbox">
+                        <label class="custom-control custom-checkbox mb-2 mr-sm-2 mb-sm-0">
+                            <input type="checkbox" class="custom-control-input"> <span class="custom-control-indicator"></span></label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-4">H.E.B</div>
+                <div class="col-4">
+                    <div class="form-group checkbox">
+                        <label class="custom-control custom-checkbox mb-2 mr-sm-2 mb-sm-0">
+                            <input type="checkbox" class="custom-control-input"> <span class="custom-control-indicator"></span></label>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="form-group checkbox">
+                        <label class="custom-control custom-checkbox mb-2 mr-sm-2 mb-sm-0">
+                            <input type="checkbox" class="custom-control-input"> <span class="custom-control-indicator"></span></label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-4">Farm Patch</div>
+                <div class="col-4">
+                    <div class="form-group checkbox">
+                        <label class="custom-control custom-checkbox mb-2 mr-sm-2 mb-sm-0">
+                            <input type="checkbox" class="custom-control-input"> <span class="custom-control-indicator"></span></label>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="form-group checkbox">
+                        <label class="custom-control custom-checkbox mb-2 mr-sm-2 mb-sm-0">
+                            <input type="checkbox" class="custom-control-input"> <span class="custom-control-indicator"></span></label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-4">CVS</div>
+                <div class="col-4">
+                    <div class="form-group checkbox">
+                        <label class="custom-control custom-checkbox mb-2 mr-sm-2 mb-sm-0">
+                            <input type="checkbox" class="custom-control-input"> <span class="custom-control-indicator"></span></label>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="form-group checkbox">
+                        <label class="custom-control custom-checkbox mb-2 mr-sm-2 mb-sm-0">
+                            <input type="checkbox" class="custom-control-input"> <span class="custom-control-indicator"></span></label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row float-right"><button class="btn btn-primary btn-md  " type="submit">Save</button></div>
         </form>
-        <button class="btn btn-primary btn-lg float-right" type="submit">Save</button>
     </div>
-    <div class="header-footer"> Copyright &copy; HandiCart </div>
+    <div class="text-center col_12"> Copyright &copy; HandiCart </div>
     <script type="application/javascript" src="js/jquery-3.1.1.min.js"></script>
     <script type="application/javascript" src="js/tether.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/js/material.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/js/ripples.min.js"></script>-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </body>
 
 </html>
