@@ -132,3 +132,6 @@
 .order-card{
     margin-top: 10px;
 }
+.admin-form .row:nth-of-type(even) div {
+background-color:lightblue;
+}
