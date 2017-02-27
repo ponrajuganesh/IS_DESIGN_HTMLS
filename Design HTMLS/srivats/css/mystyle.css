@@ -3,12 +3,12 @@
     clear: both;
     display: block;
 }
- 
+
 [class*="col_"] {
     float: left;
     padding: 15px;
 }
- 
+
 .col_1 {width: 8.33%;}
 .col_2 {width: 16.66%;}
 .col_3 {width: 25%;}
@@ -21,25 +21,25 @@
 .col_10 {width: 83.33%;}
 .col_11 {width: 91.66%;}
 .col_12 {width: 100%;}
- 
+
 #products, #subscriptions {
     overflow-x: hidden;
     overflow-y: auto;
     width: 80%;
     margin:auto;
 }
- 
+
 #seller_table, #edit_account, #admin-tbl {
     overflow-x: hidden;
     overflow-y: auto;
 }
- 
+
 @media (max-width: 768px) {
     /* For mobile phones: */
     [class*="col_"] {
         width: 100%;
     }
- 
+
     #products, #subscriptions {
         width: 100%;
     }
@@ -134,4 +134,78 @@
 }
 .admin-form .row:nth-of-type(even) div {
 background-color:lightblue;
+}
+/* new css */
+body {
+  text-align: center;
+  background: #18BC9C;
+  color: rgba(255, 255, 255, 0.75);
+  background-attachment: fixed, fixed, fixed;
+  background-image: url(../images/overlay2.png), url(../images/overlay4.svg), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
+  background-size: auto, cover, cover;
+  background-position: top left, center center, center center;
+}
+
+.login {
+margin: 20px auto;
+width: 300px;
+}
+.login-screen {
+background-color: #FFF;
+padding: 20px;
+border-radius: 5px
+}
+
+.app-title {
+text-align: center;
+color: #777;
+}
+
+.control-group {
+margin-bottom: 10px;
+}
+
+.login input {
+text-align: center;
+background-color: #ECF0F1;
+border: 2px solid transparent;
+border-radius: 3px;
+font-size: 16px;
+font-weight: 200;
+padding: 10px 0;
+width: 250px;
+transition: border .5s;
+}
+
+.login input:focus {
+border: 2px solid #3498DB;
+box-shadow: none;
+}
+
+.btn-login-form {
+border: 2px solid transparent;
+background: #3498DB;
+color: #ffffff;
+font-size: 16px;
+line-height: 25px;
+padding: 10px 0;
+text-decoration: none;
+text-shadow: none;
+border-radius: 3px;
+box-shadow: none;
+transition: 0.25s;
+display: block;
+width: 250px;
+margin: 0 auto;
+}
+
+.btn:hover {
+background-color: #2980B9;
+}
+
+.navbar{
+  background: #2c3e50 !important;
+}
+.card-block > * {
+  color: black;
 }
