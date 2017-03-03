@@ -132,8 +132,18 @@
 .order-card{
     margin-top: 10px;
 }
-.admin-form .row:nth-of-type(even) div {
+/*.admin-form .row:nth-of-type(even) div {
 background-color:lightblue;
+}*/
+#adminContainer{
+    background: white;
+}
+#adminContainer > *{
+    color:black;
+}
+#adminContainer .admin-rows{
+    border-bottom: 1px solid gray;
+    margin-left: 27%;
 }
 /* new css */
 body {
