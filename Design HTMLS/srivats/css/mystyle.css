@@ -247,3 +247,16 @@ blockquote:before {
   margin-right: 0.25em;
   vertical-align: -0.4em;
 }
+
+.best-seller-badge{
+    position: relative;
+    top: 41px;
+    left: 153px;
+    width: 48%;
+    z-index: 1;
+    display: block !important;
+}
+
+.home-page > *{
+    color: black;
+}
